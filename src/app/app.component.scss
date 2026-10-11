@@ -1,0 +1,78 @@
+:host {
+    display: block;
+    min-height: 100%;
+}
+
+.page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    color: #17324d;
+}
+
+.hero {
+    margin-bottom: 1.5rem;
+}
+
+.eyebrow {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #39765b;
+}
+
+h1 {
+    margin: 0.5rem 0;
+    font-size: 2.5rem;
+}
+
+.intro {
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    align-items: stretch;
+}
+
+.card,
+.note {
+    flex: 1 1 260px;
+    padding: 1.25rem;
+    border: 1px solid #d7e1e8;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.card {
+    box-shadow: 0 3px 12px #17324d12;
+}
+
+.note {
+    border-left: 4px solid #39765b;
+}
+
+.footer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #d7e1e8;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .page {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+}

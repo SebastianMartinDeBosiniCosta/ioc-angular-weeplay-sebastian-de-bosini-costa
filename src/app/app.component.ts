@@ -9,4 +9,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('ioc-angular-weeplay-sebastian-de-bosini-costa');
+  appName = 'WeePlay';
 }
